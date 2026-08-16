@@ -1,0 +1,214 @@
+/* ===========================
+TABLET DEVICES
+=========================== */
+
+@media (max-width:1024px){
+
+.navbar{
+    padding:18px 5%;
+}
+
+.hero-content h1{
+    font-size:50px;
+}
+
+.about-container,
+.contact-container{
+    grid-template-columns:1fr;
+    gap:40px;
+}
+
+.about-image{
+    order:-1;
+}
+
+.cards,
+.class-grid,
+.trainer-grid,
+.gallery-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* ===========================
+MOBILE DEVICES
+=========================== */
+
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:15px;
+}
+
+.navbar ul{
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.logo{
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+}
+
+.hero{
+    padding:120px 20px 60px;
+    height:auto;
+}
+
+.hero-content h1{
+    font-size:38px;
+}
+
+.hero-content p{
+    font-size:16px;
+    line-height:28px;
+}
+
+.services,
+.plans,
+.about,
+.classes,
+.trainers,
+.gallery,
+.contact,
+.bmi{
+    padding:80px 20px;
+}
+
+.cards,
+.class-grid,
+.trainer-grid,
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+.about-content h2{
+    font-size:34px;
+}
+
+.services h2,
+.plans h2{
+    font-size:34px;
+}
+
+.price-card{
+    padding:30px;
+}
+
+.price-card h1{
+    font-size:45px;
+}
+
+.contact input,
+.contact textarea{
+    font-size:15px;
+}
+
+.contact button{
+    font-size:16px;
+}
+
+.bmi-box{
+    padding:30px 20px;
+}
+
+}
+
+/* ===========================
+SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+.hero-content h1{
+    font-size:30px;
+}
+
+.hero-content p{
+    font-size:15px;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+.logo i{
+    font-size:28px;
+}
+
+.btn,
+.hero-btn{
+    width:100%;
+    text-align:center;
+}
+
+.price-card{
+    padding:25px;
+}
+
+.price-card h3{
+    font-size:24px;
+}
+
+.price-card h1{
+    font-size:40px;
+}
+
+.about-content h2{
+    font-size:28px;
+}
+
+.services h2,
+.plans h2{
+    font-size:30px;
+}
+
+footer{
+    padding:20px;
+}
+
+footer p{
+    font-size:14px;
+}
+
+}
+
+/* ===========================
+LARGE SCREENS
+=========================== */
+
+@media (min-width:1400px){
+
+.hero-content{
+    max-width:900px;
+    margin:auto;
+}
+
+.hero-content h1{
+    font-size:75px;
+}
+
+.cards{
+    grid-template-columns:repeat(4,1fr);
+}
+
+.class-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+.trainer-grid{
+    grid-template-columns:repeat(4,1fr);
+}
+
+.gallery-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
